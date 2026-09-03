@@ -1,0 +1,35 @@
+{
+  "skill_name": "left-pad",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Left-pad the string 42 to width 5 with zeroes.",
+      "expected_output": "The exact output is 00042.",
+      "files": [],
+      "expectations": [
+        "The result is exactly 00042.",
+        "The original characters are preserved and the result has width 5."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Left-pad these labels to width 6 using dots: cat and dog. Give me the padded values in the same order.",
+      "expected_output": "The output contains ...cat and ...dog in that order.",
+      "files": [],
+      "expectations": [
+        "The result for cat is exactly ...cat and the result for dog is exactly ...dog.",
+        "The values remain in the requested order."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Left-pad the already-long string hello to width 3 with underscores, without changing it.",
+      "expected_output": "The exact output is hello, with no truncation.",
+      "files": [],
+      "expectations": [
+        "The result is exactly hello.",
+        "The value is not truncated or otherwise modified."
+      ]
+    }
+  ]
+}
