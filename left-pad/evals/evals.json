@@ -30,6 +30,16 @@
         "The result is exactly hello.",
         "The value is not truncated or otherwise modified."
       ]
+    },
+    {
+      "id": 4,
+      "prompt": "From a working directory outside the installed skill directory, left-pad the string yo to width 20 with exclamation marks. Return only the result.",
+      "expected_output": "The exact output is 18 exclamation marks followed by yo.",
+      "files": [],
+      "expectations": [
+        "The result is exactly 18 exclamation marks followed by yo.",
+        "The bundled script is invoked using a path based on the installed skill location rather than the current working directory."
+      ]
     }
   ]
 }

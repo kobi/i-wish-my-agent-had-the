@@ -13,11 +13,14 @@ Turn a string into a fixed-width string by adding fill characters. This skill is
 1. Identify the input string or strings, the target width, and the fill character.
 2. Preserve the original content exactly. Do not trim whitespace, change case, or truncate text.
 3. If the input is already at least the target width, return it unchanged.
-4. For a concrete padding request, run the bundled script:
+4. For a concrete padding request, run the bundled script. Do not assume the current working directory is the skill directory. Resolve the directory containing this `SKILL.md` first, then invoke the script with its absolute path:
 
    ```bash
-   python3 scripts/pad.py "text" WIDTH [--fill CHARACTER]
+   SKILL_DIR="<absolute directory containing this SKILL.md>"
+   python3 "$SKILL_DIR/scripts/pad.py" "text" WIDTH [--fill CHARACTER]
    ```
+
+   When the skill is installed under a project `.agents` directory or globally, use that installation's `SKILL.md` location for `SKILL_DIR`; never use a path relative only to the user's current directory.
 
 5. Return the padded string(s) plainly. Mention the chosen width, fill, and side only when it prevents ambiguity.
 
@@ -35,7 +38,8 @@ Turn a string into a fixed-width string by adding fill characters. This skill is
 Left-pad `42` to width 5 with zeroes:
 
 ```bash
-python3 scripts/pad.py "42" 5 --fill 0
+SKILL_DIR="<absolute directory containing this SKILL.md>"
+python3 "$SKILL_DIR/scripts/pad.py" "42" 5 --fill 0
 ```
 
 Output:
