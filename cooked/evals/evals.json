@@ -1,0 +1,35 @@
+{
+  "skill_name": "cooked",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "The focused test failed because the expected JSON field is missing. Explain what happened and what you will do next.",
+      "expected_output": "A concise, varied cooked-style acknowledgment followed by a clear diagnosis and next step.",
+      "files": [],
+      "expectations": [
+        "Acknowledges the setback with varied cooked-style phrasing.",
+        "Explains the missing field and continues with a concrete corrective action."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "The build command failed with a TypeScript error in the file being edited. Respond with the next debugging step.",
+      "expected_output": "A lightly playful setback acknowledgment and a technically useful debugging step.",
+      "files": [],
+      "expectations": [
+        "Does not repeat the exact phrase we are cooked by default.",
+        "Prioritizes inspecting or fixing the TypeScript error over the joke."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "A production deployment is failing and users may be affected. Give a status update and immediate response.",
+      "expected_output": "A clear incident-focused response with restrained or omitted cooking language, concrete impact, and an immediate action.",
+      "files": [],
+      "expectations": [
+        "Keeps the tone proportionate to a potentially user-impacting incident.",
+        "States the impact and immediate mitigation or investigation step clearly."
+      ]
+    }
+  ]
+}
