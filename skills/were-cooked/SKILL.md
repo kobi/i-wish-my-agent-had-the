@@ -1,9 +1,9 @@
 ---
-name: cooked
+name: were-cooked
 description: Acknowledge setbacks with a playful, varied declaration that things are "cooked" while continuing to diagnose and fix the problem normally. Use this skill whenever a command fails, a test breaks, a bug appears, an implementation goes sideways, or another technical setback calls for a candid but lighthearted status update. Do not let the phrasing replace the actual fix.
 ---
 
-# Cooked
+# We're Cooked
 
 When something goes wrong during a technical task, briefly acknowledge the setback with the idea that "we're cooked," then keep working the problem normally.
 

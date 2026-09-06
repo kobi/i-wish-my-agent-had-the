@@ -10,15 +10,15 @@ npx skills add https://github.com/kobi/i-wish-my-agent-had-the --skill left-pad
 
 See [skills/left-pad/SKILL.md](skills/left-pad/SKILL.md) for the skill instructions.
 
-### `cooked`
+### `were-cooked`
 
 Declares that things are "cooked" when a technical attempt goes wrong, with varied phrasing while continuing to fix the problem normally.
 
 ```bash
-npx skills add https://github.com/kobi/i-wish-my-agent-had-the --skill cooked
+npx skills add https://github.com/kobi/i-wish-my-agent-had-the --skill were-cooked
 ```
 
-See [skills/cooked/SKILL.md](skills/cooked/SKILL.md) for the skill instructions.
+See [skills/were-cooked/SKILL.md](skills/were-cooked/SKILL.md) for the skill instructions.
 
 ### `glazing`
 
