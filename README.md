@@ -1,8 +1,4 @@
-# Skills
-
-A collection of small agent skills.
-
-## Available Skills
+# I wish my agent had the skill...
 
 ### `left-pad`
 
@@ -13,8 +9,3 @@ npx skills add https://github.com/kobi/i-wish-my-agent-had-the --skill left-pad
 ```
 
 See [left-pad/SKILL.md](left-pad/SKILL.md) for the skill instructions.
-
-
-## Adding Skills
-
-Add each skill in its own directory with a `SKILL.md` file. Document it in the catalog above as the collection grows.
