@@ -19,3 +19,13 @@ npx skills add https://github.com/kobi/i-wish-my-agent-had-the --skill cooked
 ```
 
 See [cooked/SKILL.md](cooked/SKILL.md) for the skill instructions.
+
+### `glazing`
+
+Delivers exaggerated, self-aware praise when explicitly invoked, without triggering during normal feedback or code review.
+
+```bash
+npx skills add https://github.com/kobi/i-wish-my-agent-had-the --skill glazing
+```
+
+See [skills/glazing/SKILL.md](skills/glazing/SKILL.md) for the skill instructions.
