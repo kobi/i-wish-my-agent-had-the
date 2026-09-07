@@ -7,7 +7,7 @@ description: ONLY activate when explicitly requested with "tldr", "give me a sum
 
 **Explicit invocation only.** Do not activate this skill unless the user directly asks for a TL;DR, TLDR or invokes `--skill tldr`.
 
-Condense the current session into a terse, copy-pasteable update for a standup, PR description, or handoff. Include only what is supported by the session; do not invent completion or decisions.
+Condense the current session into a terse, copy-pasteable update for a standup, PR description, or handoff. Include only what is supported by the session; do not invent completion or decisions; do not mention this tldr skill.
 
 Use exactly these three sections, in this order:
 
