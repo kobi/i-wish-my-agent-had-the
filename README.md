@@ -29,3 +29,15 @@ npx skills add https://github.com/kobi/i-wish-my-agent-had-the --skill glazing
 ```
 
 See [skills/glazing/SKILL.md](skills/glazing/SKILL.md) for the skill instructions.
+
+### `tldr`
+
+Condenses the current session into a terse, copy-pasteable summary with `Done`, `Decisions`, and `Next` sections when explicitly invoked.
+
+```bash
+npx skills add https://github.com/kobi/i-wish-my-agent-had-the --skill tldr
+```
+
+![TL;DR skill screenshot](screenshots/tldr.png)
+
+See [skills/tldr/SKILL.md](skills/tldr/SKILL.md) for the skill instructions.
