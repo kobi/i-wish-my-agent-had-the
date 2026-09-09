@@ -1,21 +1,22 @@
 # I wish my agent had the skill...
 
+Random AI Agent skills I wrote just to see how it's done.
+
 ### `tldr`
 
-Have been talking for a while? Can't be bothered to read through the history? Get a quick summary with `Done`, `Decisions`, and `Next`:
+Long session? Can't be bothered to go through the history? Get a quick summary with `Done`, `Decisions`, and `Next`:
 
 ```bash
 npx skills add https://github.com/kobi/i-wish-my-agent-had-the --skill tldr
 ```
 ![TL;DR skill screenshot](screenshots/tldr.png)
 
-
 See [skills/tldr/SKILL.md](skills/tldr/SKILL.md) for the skill instructions.
 
 
 ### `were-cooked`
 
-Admit when we're cooked. Move on as normal.  
+Your agent admit when it's cooked, then moves on as usual.  
 An attempt to influence AI language just a little.
 
 ```bash
@@ -27,7 +28,7 @@ See [skills/were-cooked/SKILL.md](skills/were-cooked/SKILL.md) for the skill ins
 ### `glazing`
 
 Want to hear how great you're doing? just ask for some fresh AI glazing.  
-This skill will not change normal interaction, you need to ask for it specifically.
+No worries, this skill will not change normal interaction, you need to ask for it specifically.
 
 ```bash
 npx skills add https://github.com/kobi/i-wish-my-agent-had-the --skill glazing
